@@ -39,10 +39,10 @@ victimIP = '11.11.3.207'
 #Fetching MAC address of Victim and Server from IP
 serverMAC = getMAC(serverIP)
 if not (serverMAC):
-	sys.exit("Machine not Found...")
+	sys.exit("Server Machine not Found...")
 victimMAC = getMAC(victimIP)
 if not (victimMAC):
-	sys.exit("Machine not Found...")
+	sys.exit("Victim Machine not Found...")
 #print victimMAC
 #print serverMAC
 
